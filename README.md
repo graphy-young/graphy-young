@@ -1,5 +1,9 @@
-### Profile
-- **Bespin Global** Data enginner @ BGK (2021~)
+Greetings!
+
+I'm working on MSP based on Seoul.
+
+Loving Python, swimming in AWS now.
+
 
 <!--
 **graphy-young/graphy-young** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
