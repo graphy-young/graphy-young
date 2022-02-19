@@ -1,8 +1,6 @@
 Greetings!
 
-I'm working on MSP based on Seoul.
-
-Loving Python, swimming in AWS now.
+I'm working as junior data enginner at MSP based on Seoul.
 
 
 <!--
