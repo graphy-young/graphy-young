@@ -1,4 +1,5 @@
-### Hi there 👋
+### Profile
+- **Bespin Global** Data enginner @ BGK (2021~)
 
 <!--
 **graphy-young/graphy-young** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
