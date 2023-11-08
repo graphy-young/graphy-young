@@ -221,7 +221,10 @@
   },
   "active": "c5cd594c58f5325f",
   "lastOpenFiles": [
+    "`logging`.md",
+    "Engineering/Unity Catalog.md",
     "Engineering/Databricks.md",
+    "Engineering/SQL Warehouse.md",
     "Engineering/data engineering.md",
     "README.md",
     "Engineering/IaaS.md",
@@ -236,7 +239,6 @@
     "Engineering/programming language.md",
     "Engineering/public cloud.md",
     "Engineering/Untitled.md",
-    "Engineering/Unity Catalog.md",
     "Engineering/Alibaba Cloud.md",
     "Engineering/Data Engineering.md",
     "Engineering",
