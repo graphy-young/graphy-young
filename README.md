@@ -1,5 +1,6 @@
 Greetings!
 
+<<<<<<< HEAD
 I'm working as junior data enginner based on Seoul, South Korea.
 
 
@@ -17,3 +18,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+=======
+I'm working as junior data enginner based on Seoul, South Korea.
+>>>>>>> 38c0e5c (Very first Obsidian valut upload)

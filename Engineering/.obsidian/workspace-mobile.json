@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "83a5a576beedf06b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e92353c40bfc7964",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c7bf0540e84bccd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prefect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4e6a2932bbc1e46",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "2f18184008233e3d",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "867f55df7d9be5c2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "248e33bfd136c585",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "10d3f6cdfe798e6d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "07c2f3dce4d81a81",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fb11d1b7af44ff30",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Prefect.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "cff82aac72118c7a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Prefect.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7ff30d6f6c48975f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Prefect.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c7bf0540e84bccd9",
+  "lastOpenFiles": [
+    "Apache Airflow.md",
+    "Prefect.md",
+    "public cloud.md",
+    "programming language.md",
+    "MapReduce.md",
+    "Open-Source.md",
+    "Databricks.md",
+    "AWS Step Functions.md",
+    "Apache Spark.md",
+    "Apache Foundation.md",
+    "data engineering.md",
+    "Flask.md",
+    "Alibaba Cloud.md",
+    "Untitled.md",
+    "Python.md",
+    "SaaS.md",
+    "Unity Catalog.md"
+  ]
+}

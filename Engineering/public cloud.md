@@ -1,0 +1,6 @@
+- [[Amazon Web Services (AWS)]]
+- [[Google Cloud Platform (GCP)]]
+- [[Microsoft Azure]]
+- [[Alibaba Cloud]]
+- [[Naver Cloud Platform (NCP)]]
+- [[Kakao i Cloud]]
