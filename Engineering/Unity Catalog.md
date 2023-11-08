@@ -1,11 +1,11 @@
 [[Metastore]] [[SaaS]] Provided by [[Databricks]]
 
 ## Using Databricks outside of Workspace (Python)
-##### Requirements
+#### Requirements
 1. 3.7 <= [[Python]] <= 3.11
 2. An existing cluster or [[SQL Warehouse]] to attach ([[SQL Warehouse]] is more recommendable due to lower cost)
 3. `databricks-sql-connector` package installed (using `pip install databricks-sql-connector`)
-##### Codes
+#### Manipulate data in Unity Catalog
 ```
 import os
 from databricks import sql
@@ -35,7 +35,7 @@ with sql.connect(server_hostname = os.getenv("DATABRICKS_SERVER_HOSTNAME"),
 # cursor.close()
 # connection.close()
 ```
-##### (OPTIONAL) If you prefer to configure logging (Databricks uses Python's standard logging)
+#### (OPTIONAL) If you prefer to configure logging (Databricks uses Python's standard logging)
 
 ```
 import logging
