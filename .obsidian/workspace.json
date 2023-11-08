@@ -231,10 +231,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71f6b43f20b570c1",
+  "active": "3a2c395e38e0ab93",
   "lastOpenFiles": [
-    "Engineering/SQL Warehouse.md",
     "Engineering/Docker.md",
+    "Engineering/Open-Source.md",
+    "Engineering/SQL Warehouse.md",
     "Engineering/Unity Catalog.md",
     "Engineering/Python.md",
     "Engineering/Databricks.md",
@@ -259,7 +260,6 @@
     "Engineering/Programming Language.md",
     "Untitled.canvas",
     "Engineering/Pubic Cloud Vendors.md",
-    "Engineering/Open-Source.md",
     "Engineering/Google Cloud Platform (GCP).md"
   ]
 }
