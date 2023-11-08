@@ -35,41 +35,15 @@ with sql.connect(server_hostname = os.getenv("DATABRICKS_SERVER_HOSTNAME"),
 # cursor.close()
 # connection.close()
 ```
-##### Use [[Python]]-standard `logging` module for debugging
+##### (OPTIONAL) If you prefer to configure logging (Databricks uses Python's standard logging)
 
 ```
-import logging # OPTIONAL, If you prefer to configure logging (Databricks uses Python's standard logging)
+import logging
 
 logging.getLogger("databricks.sql").setLevel(logging.DEBUG)
 logging.basicConfig(filename = "results.log", level = logging.DEBUG)
 
 logging.debug(row) # Something to print out like row
 ```
-
-
-
-  
-    with connection.cursor() as cursor:
-      
-        # Query data
-        cursor.execute("SELECT * FROM catalog.schema.table") # SQL Statements
-        result = cursor.fetchall() # Working same as other JDBC/ODBC style code
-        for row in result: logging.debug(row) # OPTIONAL, you can use logging method if you have configured logging 
-        
-        # Create table
-        cursor.execute("CREATE TABLE IF NOT EXISTS squares (x int, x_squared int)")
-
-      	# Insert data
-        cursor.execute(f"INSERT INTO squares VALUES (0, 0),(1, 1)")
-
-        # Query metadata
-        cursor.columns(schema_name="default", table_name="squares")
-	    print(cursor.fetchall())
-        
-# Unless you not use context manager, close cursor and connection object manually
-# cursor.close()
-# connection.close()
-
-
 ##### Reference
 - https://docs.databricks.com/en/dev-tools/python-sql-connector.html
