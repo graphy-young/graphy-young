@@ -45,5 +45,5 @@ logging.basicConfig(filename = "results.log", level = logging.DEBUG)
 
 logging.debug(row) # Something to print out like row
 ```
-##### Reference
+#### Reference
 - https://docs.databricks.com/en/dev-tools/python-sql-connector.html
