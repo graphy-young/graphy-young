@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "b5fb480d02a49b5c",
+    "id": "7af5b7d8bcdd5992",
     "type": "split",
     "children": [
       {
-        "id": "02a18d49d27c7199",
+        "id": "16dfa1ed321b95dd",
         "type": "tabs",
         "children": [
           {
-            "id": "70e11699ddf9a001",
+            "id": "3a2c395e38e0ab93",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Engineering/Amazon SageMaker.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "66c88f55b66d739f",
+    "id": "54995dbe3ec43e15",
     "type": "split",
     "children": [
       {
-        "id": "00d85f5fe1e2173b",
+        "id": "e78de92b890ab27e",
         "type": "tabs",
         "children": [
           {
-            "id": "dbd5f3fb0fc01202",
+            "id": "71f6b43f20b570c1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "786e1393f73dc15c",
+            "id": "4a9ee57a07c1707e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "7900d6f43d93eda1",
+            "id": "ebb24f04bedb53d4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "71ade114fe94dd34",
+    "id": "c3acca5feab03a6f",
     "type": "split",
     "children": [
       {
-        "id": "33e8c67d9a8f4816",
+        "id": "181fca20875b4ff0",
         "type": "tabs",
         "children": [
           {
-            "id": "fde0d783e5587ab0",
+            "id": "d3362c408c2903b6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering/Amazon SageMaker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "809709ecd33ddf92",
+            "id": "f402530af613f948",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineering/Amazon SageMaker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "1b1ce6a4cb7402b6",
+            "id": "1c9bde6642121e4d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,51 +114,59 @@
             }
           },
           {
-            "id": "ab23a25d3c540fc1",
+            "id": "fa80be0288226d7f",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Engineering/Amazon SageMaker.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "70e11699ddf9a001",
+  "active": "3a2c395e38e0ab93",
   "lastOpenFiles": [
-    "Engineering/Databricks.md",
-    "Engineering/SaaS.md",
-    "Engineering/Amazon SageMaker.md",
-    "Engineering/Docker.md",
+    "gitignore",
     "README.md",
-    "Engineering/Apache Spark.md",
-    "Engineering/Apache Airflow.md",
-    "Engineering/Open-Source.md",
-    "Engineering/Unity Catalog.md",
-    "Engineering/SQL Warehouse.md",
-    "Engineering/data engineering 2.md",
-    "Engineering/Python 2.md",
-    "Engineering/public cloud 2.md",
-    "Engineering/programming language 2.md",
-    "Engineering/Apache Airflow 2.md",
-    "Engineering/Google Cloud Platform (GCP) 2.md",
-    "Engineering/IaaS.md",
+    "Engineering/public cloud.md",
     "Engineering/programming language.md",
-    "2023-11-07.md"
+    "Engineering/data engineering.md",
+    "Engineering/Unity Catalog.md",
+    "Engineering/SaaS.md",
+    "Engineering/SQL Warehouse.md",
+    "Engineering/Python.md",
+    "Engineering/Prefect.md",
+    "Engineering/Open-Source.md",
+    "Engineering/MapReduce.md",
+    "Engineering/IaaS.md",
+    "Engineering/Google Cloud Platform (GCP).md",
+    "Engineering/Flask.md",
+    "Engineering/Docker.md",
+    "Engineering/Databricks.md",
+    "Engineering/Apache Spark.md",
+    "Engineering/Apache Foundation.md",
+    "Engineering/Apache Airflow.md",
+    "Engineering/Amazon SageMaker.md",
+    "Engineering/AWS Step Functions.md",
+    "Engineering",
+    "Engineering/Django.md",
+    "Django.md",
+    "Engineering/README.md",
+    "Untitled.md",
+    "Untitled.canvas"
   ]
 }
