@@ -11,8 +11,12 @@
             "id": "3a2c395e38e0ab93",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Engineering/Django.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Engineering/Django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Engineering/Django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Engineering/Django.md"
+              }
             }
           }
         ]
@@ -140,6 +148,7 @@
   },
   "active": "3a2c395e38e0ab93",
   "lastOpenFiles": [
+    "Engineering/Django.md",
     "Django.md",
     "Untitled.md",
     "gitignore",
@@ -165,7 +174,6 @@
     "Engineering/Amazon SageMaker.md",
     "Engineering/AWS Step Functions.md",
     "Engineering",
-    "Engineering/Django.md",
     "Engineering/README.md",
     "Untitled.canvas"
   ]
