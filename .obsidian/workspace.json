@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engineering/Django.md",
+                "file": "Engineering/SQL Warehouse.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "97ee82354c5a4cf8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engineering/Relational Database Management System (RDBMS).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c894f50911a943f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apache Hadoop.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering/Django.md",
+                "file": "Apache Hadoop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineering/Django.md",
+                "file": "Apache Hadoop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering/Django.md"
+                "file": "Apache Hadoop.md"
               }
             }
           }
@@ -146,35 +171,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3a2c395e38e0ab93",
+  "active": "c894f50911a943f3",
   "lastOpenFiles": [
-    "Engineering/Django.md",
-    "Django.md",
-    "Untitled.md",
-    "gitignore",
+    "Engineering/Relational Database Management System (RDBMS).md",
+    "Apache Hadoop.md",
+    "Engineering/SQL.md",
+    "Engineering/SQL Warehouse.md",
     "README.md",
+    "Engineering/Unity Catalog.md",
+    "Engineering/Databricks.md",
+    "Engineering/Django.md",
+    "Docker Hub.md",
+    "Engineering/Docker.md",
+    "Engineering/Flask.md",
+    "Engineering/AWS Step Functions.md",
+    "Engineering/data engineering.md",
+    "Django.md",
+    "gitignore",
     "Engineering/public cloud.md",
     "Engineering/programming language.md",
-    "Engineering/data engineering.md",
-    "Engineering/Unity Catalog.md",
     "Engineering/SaaS.md",
-    "Engineering/SQL Warehouse.md",
     "Engineering/Python.md",
     "Engineering/Prefect.md",
     "Engineering/Open-Source.md",
     "Engineering/MapReduce.md",
     "Engineering/IaaS.md",
     "Engineering/Google Cloud Platform (GCP).md",
-    "Engineering/Flask.md",
-    "Engineering/Docker.md",
-    "Engineering/Databricks.md",
     "Engineering/Apache Spark.md",
     "Engineering/Apache Foundation.md",
     "Engineering/Apache Airflow.md",
-    "Engineering/Amazon SageMaker.md",
-    "Engineering/AWS Step Functions.md",
     "Engineering",
-    "Engineering/README.md",
     "Untitled.canvas"
   ]
 }
