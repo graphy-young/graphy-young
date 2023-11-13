@@ -1,2 +1,0 @@
-- [[Apache Airflow]]
-- [[Apache Spark]]

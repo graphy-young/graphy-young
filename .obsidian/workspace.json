@@ -35,12 +35,8 @@
             "id": "c894f50911a943f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apache Hadoop.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -110,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apache Hadoop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apache Hadoop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,17 +143,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Apache Hadoop.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,12 +164,18 @@
   },
   "active": "c894f50911a943f3",
   "lastOpenFiles": [
-    "Engineering/Relational Database Management System (RDBMS).md",
-    "Apache Hadoop.md",
+    "Amazon Web Services (AWS).md",
+    "Engineering/Amazon SageMaker.md",
+    "Engineering/Apache Software Foundation.md",
+    "Engineering/Apache Hadoop.md",
+    "Engineering/Apache Airflow.md",
+    "Engineering/open-source.md",
+    "README.md",
+    "Engineering/SaaS.md",
     "Engineering/SQL.md",
     "Engineering/SQL Warehouse.md",
-    "README.md",
     "Engineering/Unity Catalog.md",
+    "Engineering/Relational Database Management System (RDBMS).md",
     "Engineering/Databricks.md",
     "Engineering/Django.md",
     "Docker Hub.md",
@@ -190,16 +187,10 @@
     "gitignore",
     "Engineering/public cloud.md",
     "Engineering/programming language.md",
-    "Engineering/SaaS.md",
     "Engineering/Python.md",
     "Engineering/Prefect.md",
-    "Engineering/Open-Source.md",
     "Engineering/MapReduce.md",
     "Engineering/IaaS.md",
-    "Engineering/Google Cloud Platform (GCP).md",
-    "Engineering/Apache Spark.md",
-    "Engineering/Apache Foundation.md",
-    "Engineering/Apache Airflow.md",
     "Engineering",
     "Untitled.canvas"
   ]
