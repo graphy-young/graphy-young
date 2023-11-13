@@ -1,6 +1,6 @@
 
-Workflow Orchestration Platform, Made by [[Apache Software Foundation]].
-Consist of [[Python]] [[Flask]]
+Workflow Orchestration Platform, made by [[Apache Software Foundation]].
+Based on [[Python]] [[Flask]] [[framework]], 
 
 ### Competitors
 1. **[[Apache Oozie]]**
