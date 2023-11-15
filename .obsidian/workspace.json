@@ -158,7 +158,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -170,16 +171,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c894f50911a943f3",
+  "active": "d3362c408c2903b6",
   "lastOpenFiles": [
+    "Engineering/Apache Hadoop.md",
+    "Engineering/Apache Airflow.md",
     "Engineering/Micorosoft.md",
     "Engineering/Amazon Web Services (AWS).md",
     "Engineering/Object-Relational Mapping (ORM).md",
-    "Engineering/Apache Hadoop.md",
     "Engineering/Docker.md",
     "Engineering/Amazon SageMaker.md",
     "Engineering/Apache Software Foundation.md",
-    "Engineering/Apache Airflow.md",
     "Engineering/open-source.md",
     "README.md",
     "Engineering/SaaS.md",
