@@ -1,7 +1,7 @@
 An open-source [[framework]] designed for [[distributed storage]] and processing of large data sets using a simple programming model. It is part of the [[Apache Software Foundation]] and is widely used in handling [[big data]] and performing distributed computing tasks
 
 ## Key components
----
+
 1. **[[Hadoop Distributed File System (HDFS)]]**
     - HDFS is the primary storage system used by Hadoop. It is designed to store vast amounts of data across multiple machines. Data is distributed across the cluster, providing fault tolerance and high throughput.
 2. **[[MapReduce]]**

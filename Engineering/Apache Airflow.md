@@ -3,6 +3,7 @@ Workflow Orchestration Platform, made by [[Apache Software Foundation]].
 Based on [[Python]] [[Flask]] [[framework]], 
 
 ## Custom Operator
+
 ``` python
 # DOCS -> https://airflow.apache.org/docs/apache-airflow/stable/howto/custom-operator.html
 # BaseOperator -> # https://airflow.apache.org/docs/apache-airflow/stable/_api/airflow/models/baseoperator/index.html#airflow.models.baseoperator.BaseOperator
@@ -65,6 +66,7 @@ class MyCustomOperator(BaseOperator):
 ```
 
 ### Competitors
+
 1. **[[Apache Oozie]]**
 2. **[[Amazon Managed Workflows for Apache Airflow (MWAA)]]**
 3. **[[AWS Step Functions]]**
