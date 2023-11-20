@@ -38,4 +38,6 @@ Control Plane
     - **자동화된 스케줄링**: 노드(서버)에 컨테이너를 효율적으로 배포
     - **자동 스케일링**: 리소스 사용률에 따라 애플리케이션의 인스턴스 수를 자동으로 조정
     - **자동 복구**: 실패한 컨테이너를 자동으로 다시 시작하거나, 예상치 못한 오류를 자동으로 복구
-## Raft Algorithm for High availability
+### Raft Algorithm for High availability
+- [Kubernetes 운영을 위한 etcd 기본 동작 원리의 이해 (Kakao)](https://tech.kakao.com/2021/12/20/kubernetes-etcd/)
+- [Simple Leader Election with Kubernetes and Docker (GitHub)](https://github.com/kubernetes-retired/contrib/tree/master/election)
