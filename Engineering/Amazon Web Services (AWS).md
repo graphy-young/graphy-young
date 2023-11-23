@@ -40,14 +40,26 @@
 	- [[AWS LakeFormation]] - Build a secure data lake in days
 - **[[Machine Learning]]**
 	- [[Amazon SageMaker]]
+- **Security, Identity & Compliance**
+	- [[AWS Identity and Access Management (IAM)]]
+	- [[AWS Secrets Manager]]
+	- [[AWS Key Management Service (KMS)]]
+- **Developer Tools**
+	- [[AWS Command Line Interface (CLI)]] - Line [[interface]] unified tool to manage AWS services
+	- [[AWS CodeCommit]] - Store code in private [[Git]] repository
+	- [[AWS CodePipeline]] - ([[Jenkins]]-like) 
+	- [[AWS CodeDeploy]] - Automate code deployments
+	- [[AWS CodeBuild]] - Build and test code
+	- [[AWS Cloud9]] - Write, run, and debug code on a cloud [[IDE]]
+	- [[Amazon CodeWhisperer]]
+
 - [[AWS Step Functions]]
 - [[Amazon Elastic Container Registry (ECR)]]
 
 - [[Amazon CloudFormation]]
 
-- [[AWS CodePipeline]]
-- [[AWS CodeDeploy]]
-- [[AWS CodeCommit]] - [[Git]] repository
+
+
 
 - [[Amazon CloudWatch]]
 - [[Amazon CloudTrail]]
