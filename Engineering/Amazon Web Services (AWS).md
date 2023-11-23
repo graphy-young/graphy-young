@@ -2,21 +2,24 @@
 
 #### [AWS Cloud Products](https://aws.amazon.com/products/)
 - **Compute**
-	- [[Amazon Elastic Compute Cloud (EC2)]]
-		- [[Amazon EC2 Spot Instances]]
-		- [[Amazon EC2 Auto Scaling]]
-	- [[Amazon Elastic Container Service (ECS)]]
+	- [[Amazon Elastic Compute Cloud (EC2)]] - Virtual servers in the cloud
+		- [[Amazon EC2 Spot Instances]] - Run workloads for up to 90% off
+		- [[Amazon EC2 Auto Scaling]] - Scale compute capacity to meet demand
+		- [[AWS Lambda]] - Run code without thinking about servers
+		- [[AWS Auto Scaling]] - Scale multiple resources to meet demand
+- **Containers**
+	- [[Amazon Elastic Container Service (ECS)]] - Highly secure, reliable, and scalable way to run containers
 	- [[Amazon Elastic Kubernetes Service (EKS)]] - Managed [[Kubernetes]] service
-	- [[AWS Fargate]]
-	- [[AWS Lambda]]
-	- [[AWS Auto Scaling]]
+	- [[Amazon Elastic Container Registry (ECR)]] - Easily store, manage, and deploy container images
+	- [[AWS Fargate]] - Serverless compute for containers
+	- [[AWS Elastic Beanstalk]] - Run and managed web apps
 - **Storage**
-	- [[Amazon Simple Storage Service (S3)]]
-		- [[Amazon S3 Glacier]]
-	- [[Amazon Elastic Block Store (EBS)]]
-	- [[Amazon Elastic File System (EFS)]]
-	- [[AWS Backup]]
-	- [[AWS Snow Family]]
+	- [[Amazon Simple Storage Service (S3)]] - Object storage built to retrieve any amount of data from anywhere
+		- [[Amazon S3 Glacier]] - Low-cost archive storage in the cloud
+	- [[Amazon Elastic Block Store (EBS)]]-  EC2 block storage volumes
+	- [[Amazon Elastic File System (EFS)]] - Fully managed file system for EC2
+	- [[AWS Backup]] - Centralized backup across AWS services
+	- [[AWS Snow Family]] - Physical edge computing and storage devices for rugged or disconnected environments
 - **[[Database]]**
 	- [[Amazon Relational Database Service (RDS)]] - Managed relational database service for [[MySQL]], [[PostgreSQL]], [[Oracle]], [[Microsoft SQL Server]], and [[MariaDB]]
 		- [[Amazon Aurora]] - High performance managed relational database
@@ -25,25 +28,46 @@
 	- [[Amazon Redshift]] - Fast, simple, cost-effective data warehousing
 	- [[Amazon ElastiCache]] - In-memory caching service
 - **Networking & Content Delivery**
-	- [[Amazon Virtual Private Cloud (VPC)]]
-	- [[Amazon API Gateway]]
-	- [[Amazon CloudFront]]
-	- [[Amazon Route 53]]
-	- [[Elastic Load Balancing (ELB)]]
+	- [[Amazon Virtual Private Cloud (VPC)]]- Isolated cloud resources
+	- [[AWS Transit Gateway]] - Easily scale VPC and account connections
+	- [[Amazon API Gateway]] - Build, deploy, and managed [[API]]s
+	- [[Amazon CloudFront]] - Global [[Contents Delivery Network (CDN)]]
+	- [[Amazon Route 53]] - 53 Scalable [[Domain Name System (DNS)]]
+	- [[Elastic Load Balancing (ELB)]] - Distribute incoming traffic across multiple targets
+- **Migration**
+	- [[AWS Transfer Family]] - Fully managed [[SFTP]], [[FTPS]], and [[FTP]] service
 - **Analytics**
 	- [[Amazon Athena]] - Query data in [[Amazon Simple Storage Service (S3)]] using [[SQL]]
 	- [[Amazon EMR]] - Hosted [[Apache Hadoop]] [[framework]]
 	- [[AWS Glue]] - ([[SaaS]] [[Apache Spark]]) Simple, scalable, and serverlessd ata integration
 	- [[Amazon Kinesis]] - ([[Apache Kafka]]-like) Analyze real-time video and data streams
-	- [[Amazon OpenSearch Service]] - ([[ElasticSearch]]-like) Search, visualize, and analyze up to petabytes of text and unstructured data
+		- [[Kinesis Data Streams]]
+		- [[Kinesis Data Firehose]] (Kinesis Data Analytics)
+		- [[Kinesis Video Streams]]
+	- [[Amazon OpenSearch Service]] - ([[ElasticSearch]]-poked) Search, visualize, and analyze up to petabytes of text and unstructured data
 	- [[Amazon QuickSight]] - Fast business analytics service
 	- [[AWS LakeFormation]] - Build a secure data lake in days
+	- [[Amazon Managed Streaming for Apache Kafka (MSK)]] - Fully managed [[Apache Kafka]] service
+- **Application Integration**
+	- [[AWS Step Functions]] - Coordination for distributed applications
+	- [[Amazon EventBridge]] - Serverless event bus for [[SaaS]] apps & AWS services
+	- [[Amazon Managed Workflows for Apache Airflow (MWAA)]] - Highly available, secure, and managed workflow orchestration for [[Apache Airflow]]
+	- [[Amazon Simple Queue Service (SQS)]] - Managed message queues
+	- [[Amazon MQ]] - Managed message broker service
+	- [[Amazon Simple Notification Service (SNS)]]- Pub/sub, SMS, email, and mobile push notifications
 - **[[Machine Learning]]**
-	- [[Amazon SageMaker]]
+	- [[Amazon SageMaker]] - Build, train, and deploy [[machine learning]] models at scale
+	- [[Amazon SageMaker Ground Truth]] - Build accurate ML training datasets
 - **Security, Identity & Compliance**
-	- [[AWS Identity and Access Management (IAM)]]
-	- [[AWS Secrets Manager]]
-	- [[AWS Key Management Service (KMS)]]
+	- [[AWS Identity and Access Management (IAM)]] - Securely manage access to services and resources
+	- [[AWS Secrets Manager]] - Rotate, manage, and retrieve secrets
+	- [[AWS Key Management Service (KMS)]] - Managed creation and control of encryption keys
+- **Business Applications**
+	- [[Amazon Chime]] - Frustration-free meetings, video calls, and chat
+	- [[Amazon Simple Email Service (SES)]] - High-scale inbound and outbound email
+- **Coud Financial Managedment**
+	- [[AWS Budgets]] -  Set custom cost and usage budgets
+	- [[Savings Plans]] - Save up to 72% on compute usage with flexible pricing
 - **Developer Tools**
 	- [[AWS Command Line Interface (CLI)]] - Line [[interface]] unified tool to manage AWS services
 	- [[AWS CodeCommit]] - Store code in private [[Git]] repository
@@ -51,21 +75,10 @@
 	- [[AWS CodeDeploy]] - Automate code deployments
 	- [[AWS CodeBuild]] - Build and test code
 	- [[AWS Cloud9]] - Write, run, and debug code on a cloud [[IDE]]
-	- [[Amazon CodeWhisperer]]
-
-- [[AWS Step Functions]]
-- [[Amazon Elastic Container Registry (ECR)]]
-
-- [[Amazon CloudFormation]]
-
-
-
-
-- [[Amazon CloudWatch]]
-- [[Amazon CloudTrail]]
-
-- [[Amazon CloudFront]]
-- [[Amazon Simple Queue Service (SQS)]]
-- [[AWS Elastic Beanstalk]]
-- [[Amazon Simple Notification Service (SNS)]]
-- 
+	- [[Amazon CodeWhisperer]] - ([[GitHub Copilot]]-like) Build apps faster with ML-powered coding companion
+	- [[AWS X-Ray]] - Analyze and debug your applications
+	- [[AWS tools and SDKs]]
+- **Management & Governance**
+	- [[Amazon CloudWatch]] - Monitor resources and applications
+	- [[Amazon CloudTrail]] - Track user activity and API usage
+	- [[Amazon CloudFormation]] - Create andm anaged resource with template ([[Terraform]], [[Ansible]])
