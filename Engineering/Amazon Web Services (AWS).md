@@ -34,8 +34,9 @@
 	- [[Amazon CloudFront]] - Global [[Contents Delivery Network (CDN)]]
 	- [[Amazon Route 53]] - 53 Scalable [[Domain Name System (DNS)]]
 	- [[Elastic Load Balancing (ELB)]] - Distribute incoming traffic across multiple targets
-- **Migration**
+- **Migration & Transfer**
 	- [[AWS Transfer Family]] - Fully managed [[SFTP]], [[FTPS]], and [[FTP]] service
+	- [[AWS Database Migration Service (DMS)]] - Migrate databases with minimal downtime
 - **Analytics**
 	- [[Amazon Athena]] - Query data in [[Amazon Simple Storage Service (S3)]] using [[SQL]]
 	- [[Amazon EMR]] - Hosted [[Apache Hadoop]] [[framework]]
