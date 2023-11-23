@@ -38,11 +38,13 @@
 	- [[Amazon OpenSearch Service]] - ([[ElasticSearch]]-like) Search, visualize, and analyze up to petabytes of text and unstructured data
 	- [[Amazon QuickSight]] - Fast business analytics service
 	- [[AWS LakeFormation]] - Build a secure data lake in days
+- **[[Machine Learning]]**
+	- [[Amazon SageMaker]]
 - [[AWS Step Functions]]
 - [[Amazon Elastic Container Registry (ECR)]]
 
 - [[Amazon CloudFormation]]
-- [[Amazon SageMaker]]
+
 - [[AWS CodePipeline]]
 - [[AWS CodeDeploy]]
 - [[AWS CodeCommit]] - [[Git]] repository
