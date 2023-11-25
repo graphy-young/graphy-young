@@ -1,4 +1,4 @@
->Container Orchestration Platform, 컨테이너화된 애플리케이션을 자동으로 배포, 확장, 관리하기 위한 오픈소스 플랫폼
+> Container Orchestration Platform, 컨테이너화된 애플리케이션을 자동으로 배포, 확장, 관리하기 위한 오픈소스 플랫폼
 
 ## Architecture
 ```

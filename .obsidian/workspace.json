@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "889747dd5c5103c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engineering/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering/Amazon Web Services (AWS).md",
+                "file": "Engineering/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineering/Amazon Web Services (AWS).md",
+                "file": "Engineering/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering/Amazon Web Services (AWS).md"
+                "file": "Engineering/Git.md"
               }
             }
           }
@@ -195,11 +207,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ff02a1e6c4d9a16",
+  "active": "889747dd5c5103c1",
   "lastOpenFiles": [
-    "Apache Kafka.md",
+    "Engineering/GitHub.md",
+    "Engineering/Git.md",
+    "Engineering/Google Cloud Platform (GCP).md",
     "Engineering/Amazon Web Services (AWS).md",
     "Engineering/Kubernetes.md",
+    "Engineering/MapReduce.md",
+    "Engineering/Apache Hadoop.md",
+    "Apache Kafka.md",
     "Engineering/Relational Database Management System (RDBMS).md",
     "Engineering/Python.md",
     "Engineering/programming language.md",
@@ -214,15 +231,10 @@
     "Engineering/Apache Software Foundation.md",
     "Engineering/AWS Step Functions.md",
     "Amazon Elastic Compute Cloud (EC2).md",
-    "Engineering/Apache Hadoop.md",
     "Engineering/Unity Catalog.md",
     "Engineering/SQL Warehouse.md",
     "Engineering/SQL.md",
     "Engineering/SaaS.md",
-    "Engineering/RESTful API.md",
-    "Engineering/Object-Relational Mapping (ORM).md",
-    "Engineering/Micorosoft.md",
-    "Engineering/MapReduce.md",
     "gitignore",
     "Engineering",
     "Untitled.canvas"
