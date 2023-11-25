@@ -66,7 +66,7 @@
 - **Business Applications**
 	- [[Amazon Chime]] - Frustration-free meetings, video calls, and chat
 	- [[Amazon Simple Email Service (SES)]] - High-scale inbound and outbound email
-- **Coud Financial Managedment**
+- **Cloud Financial Management**
 	- [[AWS Budgets]] -  Set custom cost and usage budgets
 	- [[Savings Plans]] - Save up to 72% on compute usage with flexible pricing
 - **Developer Tools**
@@ -82,4 +82,4 @@
 - **Management & Governance**
 	- [[Amazon CloudWatch]] - Monitor resources and applications
 	- [[Amazon CloudTrail]] - Track user activity and API usage
-	- [[Amazon CloudFormation]] - Create andm anaged resource with template ([[Terraform]], [[Ansible]])
+	- [[Amazon CloudFormation]] - Create and manage resource with template ([[Terraform]], [[Ansible]])
