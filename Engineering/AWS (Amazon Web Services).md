@@ -9,7 +9,7 @@
 		- [[AWS Auto Scaling]] - Scale multiple resources to meet demand
 - **Containers**
 	- [[Amazon Elastic Container Service (ECS)]] - Highly secure, reliable, and scalable way to run containers
-	- [[Amazon Elastic Kubernetes Service (EKS)]] - Managed [[Kubernetes]] service
+	- [[Amazon Elastic Kubernetes Service (EKS)]] - Managed [[Kubernetes (k8s)]] service
 	- [[Amazon Elastic Container Registry (ECR)]] - Easily store, manage, and deploy container images
 	- [[AWS Fargate]] - Serverless compute for containers
 	- [[AWS Elastic Beanstalk]] - Run and managed web apps

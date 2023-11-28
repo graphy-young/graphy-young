@@ -16,5 +16,5 @@ Docker is an [[open-source]] platform for developing, shipping, and running appl
 	``` bash
 	brew install --cask docker’
 	```
-2. [[Windows]] ([[Micorosoft]])
+2. [[Windows]] ([[Microsoft]])
 3. [[Linux]]
