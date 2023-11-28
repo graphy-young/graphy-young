@@ -1,4 +1,4 @@
-- [[Amazon Web Services (AWS)]]
+- [[AWS (Amazon Web Services)]]
 - [[Google Cloud Platform (GCP)]]
 - [[Microsoft Azure]]
 - [[Alibaba Cloud]]
