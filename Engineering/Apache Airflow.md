@@ -1,6 +1,10 @@
 
 Apache Airflow is an open-source workflow orchestration platform, developed with [[Python]] and utilizing the [[Flask]] framework for the web server component. It is created by the [[Apache Software Foundation]] and designed to programmatically author, schedule, and monitor workflows, which are defined as DAGs (Directed Acyclic Graphs).
 
+## Starting Apache Airflow easily using [[Docker]]
+
+You can directly install Apache Airflow with PyPi if you are using macOS or Linux. However with [[Docker]] or [[Helm Chart]], there's nothing to waste time setting up dependency libraries or other environments.
+
 ## Operator
 
 Operator is a component of DAGs, pre-defined & templated task. It can be defined declaratively inside the DAG. This contains the logic for how data is processed in the pipeline.
