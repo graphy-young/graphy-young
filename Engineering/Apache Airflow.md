@@ -70,10 +70,10 @@ class MyCustomOperator(BaseOperator):
         super().on_kill() # Optional
 ```
 
-### Competitors
+### Competitors or alternatives
 
-1. **[[Apache Oozie]]**
-2. **[[Amazon Managed Workflows for Apache Airflow (MWAA)]]**
+1. **[[Apache Oozie]]** by [[Apache Software Foundation]]
+2. **[[Amazon Managed Workflows for Apache Airflow (MWAA)]]** by [[AWS (Amazon Web Services)]]
 3. **[[AWS Step Functions]]**
-4. **[[Google Cloud Platform (GCP)]]** **[[Cloud Composer]]**
+4. **[[Cloud Composer]]** by **[[Google Cloud Platform (GCP)]]**
 5. **[[Prefect]]**
