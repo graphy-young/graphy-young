@@ -1,8 +1,10 @@
 
-Workflow Orchestration Platform, made by [[Apache Software Foundation]].
+Apache Airflow is an open-source workflow orchestration platform, made by [[Apache Software Foundation]]. It is designed to programmatically author, schedule and monitor workflows. Workflows is defined as DAGs(Directed Acyclic Graphs)
 Based on [[Python]] [[Flask]] [[framework]], 
 
-## Custom Operator
+## Operator
+
+Operator is a component of DAGs, pre-defined & templated task. It can be defined declaratively inside the DAG. This contains the logic for how data is processed in the pipeline.
 
 ``` python
 # DOCS -> https://airflow.apache.org/docs/apache-airflow/stable/howto/custom-operator.html
