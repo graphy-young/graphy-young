@@ -1,6 +1,5 @@
 
 Apache Airflow is an open-source workflow orchestration platform, developed with [[Python]] and utilizing the [[Flask]] framework for the web server component. It is created by the [[Apache Software Foundation]] and designed to programmatically author, schedule, and monitor workflows, which are defined as DAGs (Directed Acyclic Graphs).
-It was 
 
 ## Operator
 
