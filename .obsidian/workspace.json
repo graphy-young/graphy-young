@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engineering/Apache Airflow.md",
+                "file": "Engineering/Apache Spark.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering/Apache Airflow.md",
+                "file": "Engineering/Apache Spark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineering/Apache Airflow.md",
+                "file": "Engineering/Apache Spark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engineering/Apache Airflow.md"
+                "file": "Engineering/Apache Spark.md"
               }
             }
           }
@@ -231,8 +231,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "71f6b43f20b570c1",
+  "active": "0ff90ec5d31a5a41",
   "lastOpenFiles": [
+    "Pasted image 20231204232356.png",
+    "Pasted image 20231204232309.png",
+    "Engineering/Apache Airflow.md",
     "Engineering/Amazon SageMaker.md",
     "Engineering/Databricks.md",
     "Engineering/Django.md",
@@ -257,8 +260,6 @@
     "Engineering/Python.md",
     "Engineering/programming language.md",
     "Engineering/Prefect.md",
-    "Engineering/open-source.md",
-    "Engineering/Apache Airflow.md",
     "gitignore",
     "Engineering",
     "Untitled.canvas"
