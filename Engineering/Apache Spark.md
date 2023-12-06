@@ -15,10 +15,16 @@ Apache Spark is an [[open-source]], distributed computing system that provides a
 
 ### Operations of Apache Spark
 
-- Transformation: Query plan만 생성되며, 실제 메모리에 올리지 않음
-	- Narrow Transformation: Partition 간의 데이터의 이동이 일어나지 않음 — `map()`, `flatMap()`, `filter()`, `union()` 등
-	- Wide Transformation: Partition 간 데이터 이동 발생 — `groupByKey()`, `aggregate()`, `aggregateByKey()`, `join()`, `repartition()` 등
-- Action: Spark는 Lazy Evaluation의 특성을 가지고 있어 Action 시점 전까지 실제 연산을 수행하지 않음. 이는 네트워크 비용을 감소시킴
+1. **Transformations**
+    - Transformations are operations that create a new Resilient Distributed Dataset (RDD) from an existing one.
+    - They are _lazily evaluated, meaning that they do not compute the results immediately_. Instead, they build up a logical execution plan that Spark will execute when an action is called.
+    - Examples of transformations include `map`, `filter`, `flatMap`, `union`, and `groupByKey`.
+    - Transformations are the building blocks for defining the sequence of data processing steps.
+2. **Actions**
+    - Actions are operations that trigger the execution of the logical execution plan and return a value to the driver program or write data to an external storage system.
+    - Actions are the operations that initiate the actual computation of data and materialize the results.
+    - Examples of actions include `count`, `collect`, `saveAsTextFile`, `reduce`, and `foreach`.
+    - Actions are the culmination of a series of transformations, causing Spark to execute the entire computation plan.
 
 ## PySpark
 
