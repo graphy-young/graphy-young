@@ -27,22 +27,22 @@ Apache Spark is an [[open-source]], distributed computing system that provides a
 		    - Examples of narrow transformations include `map`, `filter`, `union`, and `flatMap`.
 		    - These transformations are often applied locally to each partition, and the results are combined to form the output RDD.
 		    - In this example below, the `map` transformation is applied independently to each partition, doubling the values in each partition. The result is a new RDD with the same number of partitions.
-	     ``` python
-	     # Example of narrow transformation (map) 
-	     rdd = sc.parallelize([1, 2, 3, 4], 2)  # 2 partitions 
-	     mapped_rdd = rdd.map(lambda x: x * 2)
-		 ```
-		2. **Wide Transformations**
+		     ``` python
+		     # Example of narrow transformation (map) 
+		     rdd = sc.parallelize([1, 2, 3, 4], 2)  # 2 partitions 
+		     mapped_rdd = rdd.map(lambda x: x * 2)
+			 ```
+		1. **Wide Transformations**
 		    - Wide transformations are operations where data from multiple partitions of the parent RDD is required to compute the partitions of the child RDD. These transformations involve shuffling or redistribution of data across partitions and can incur more computational and network overhead.
 		    - Examples of wide transformations include `groupByKey`, `reduceByKey`, `sortByKey`, and `join`.
 		    - These transformations often lead to the creation of a new set of partitions based on the key, requiring data exchange between nodes.
 		    - Following the example below, the `reduceByKey` transformation requires data with the same key to be combined. This involves shuffling data between partitions to group values by key, resulting in a new set of partitions for the output RDD.
-		``` python
-		# Example of wide transformation (reduceByKey) 
-		pair_rdd = sc.parallelize([(1, 2), (1, 4), (2, 1), (2, 3)], 2)  # 2 partitions 
-		reduced_rdd = pair_rdd.reduceByKey(lambda x, y: x + y)
-		```
-2. **Actions**
+			``` python
+			# Example of wide transformation (reduceByKey) 
+			pair_rdd = sc.parallelize([(1, 2), (1, 4), (2, 1), (2, 3)], 2)  # 2 partitions 
+			reduced_rdd = pair_rdd.reduceByKey(lambda x, y: x + y)
+			```
+1. **Actions**
     - Actions are operations that trigger the execution of the logical execution plan and return a value to the driver program or write data to an external storage system.
     - Actions are the operations that initiate the actual computation of data and materialize the results.
     - Examples of actions include `count`, `collect`, `saveAsTextFile`, `reduce`, and `foreach`.
