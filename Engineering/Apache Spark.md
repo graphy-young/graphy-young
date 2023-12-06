@@ -1,10 +1,18 @@
-In-memory computing framework origin by [[MapReduce]]
-It can be simply combined with [[Apache Hadoop Ecosystem]]
+Apache Spark is an [[open-source]], distributed computing system that provides a fast and general-purpose cluster-computing framework for [[big data]] processing and analytics.
 
+## Key aspects
 
-- 오픈소스이며, 범용적인 목적을 지닌 **분산 클러스터 컴퓨팅 프레임워크**으로 Fault Tolerance & Data Parallelism을 가지고 클러스터들을 프로그래밍할 수 있게 도와준다.
-- RDD, Data Frame, Data Set의 3가지 API를 제공하는데, 이러한 데이터를 바탕으로 **In-memory 연산**을 가능하도록 하여 디스크 기반의 Hadoop에 비해 성능을 약 100배 정도 끌어올렸다.
-- Spark는 Cluster들을 관리하는 Cluster Manager와 데이터를 분산 저장하는 Distributed Storage System이 필요하다. 자주 사용되는 Cluster Manager로는 [[Apache Hadoop]]의 [[YARN]]이나 [[Apache Mesos]] 등이 있다. 또한 Distributed Storage System으로는 [[HDFS (Hadoop Distributed File System)]], MapR-FS(MapR File System), [[Apache Cassandra]], [[OpenStack Swift]], [[Amazon Simple Storage Service (S3)]], Kudu, custom solution 등을 적용할 수 있다. 가장 많이 사용되는 Storage System는 Hadoop인데, zlib and Bzip2와 같은 압축 알고리즘을 지원하며, Spark와 같은 머신에서 구동가능하기 때문이다.
+1. **Speed**: Spark is designed for speed and can perform in-memory data processing, making it faster than traditional [[big data]] processing tools like [[Apache Hadoop]]. It achieves this through in-memory computation and efficient fault recovery.
+2. **Ease of Use**: Spark offers high-level APIs in [[Java]], [[Scala]], [[Python]], and [[R]], making it accessible to a wide range of developers. It also provides built-in libraries for diverse tasks, such as [[SQL]], machine learning (MLlib), graph processing ([[GraphX]]), and stream processing ([[Spark Streaming]]).
+3. **Versatility**: Spark can handle various data processing tasks, including batch processing, iterative algorithms, interactive queries, and streaming. Its unified platform makes it easier to integrate diverse processing workloads.
+4. **Distributed Computing**: Spark distributes data across a cluster of machines, enabling parallel processing and improved scalability. The core abstraction in Spark is the [[Resilient Distributed Dataset (RDD)]], which allows data to be distributed across nodes in a fault-tolerant manner.
+5. **[[Fault Tolerance]]**: Spark achieves fault tolerance through lineage information, which allows it to reconstruct lost data partitions due to node failures. This ensures that Spark jobs can continue execution even in the presence of failures.
+6. **Spark SQL**: Spark includes a module for structured data processing called Spark SQL. It allows users to query structured data using [[SQL]], as well as integrate [[SQL]] queries with Spark programs.
+7. **Machine Learning with MLlib:** MLlib is a scalable [[machine learning]] library included in Spark. It provides a set of machine learning algorithms for classification, regression, clustering, and collaborative filtering, among others.
+8. **Graph Processing with [[GraphX]]**: Spark comes with [[GraphX]], a graph processing library that enables the processing of graph-structured data. This is particularly useful for applications like social network analysis and fraud detection.
+9. **[[Spark Streaming]]**: [[Spark Streaming]] allows for real-time processing of data streams. It processes data in small time windows, providing near-real-time analytics capabilities.
+10. **Community Support**: Apache Spark has a large and active community, contributing to its development and providing support through forums, mailing lists, and other channels.
+
 ### Operations of Apache Spark
 
 - Transformation: Query plan만 생성되며, 실제 메모리에 올리지 않음
