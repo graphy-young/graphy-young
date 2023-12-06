@@ -16,10 +16,32 @@ Apache Spark is an [[open-source]], distributed computing system that provides a
 ### Operations of Apache Spark
 
 1. **Transformations**
-    - Transformations are operations that create a new Resilient Distributed Dataset (RDD) from an existing one.
+    - Transformations are operations that create a new [[Resilient Distributed Dataset (RDD)]] from an existing one.
     - They are _lazily evaluated, meaning that they do not compute the results immediately_. Instead, they build up a logical execution plan that Spark will execute when an action is called.
     - Examples of transformations include `map`, `filter`, `flatMap`, `union`, and `groupByKey`.
     - Transformations are the building blocks for defining the sequence of data processing steps.
+    - They are broadly categorized into narrow and wide transformations based on how they process data across partitions in a distributed environment.
+	    - 1. **Narrow Transformations**
+		    - Narrow transformations are operations where each partition of the parent RDD contributes to only one partition of the child RDD. In other words, the computation for a single partition does not require shuffling or redistribution of data across partitions.
+		    - Narrow transformations are more efficient because they don't involve extensive data movement between nodes in the cluster.
+		    - Examples of narrow transformations include `map`, `filter`, `union`, and `flatMap`.
+		    - These transformations are often applied locally to each partition, and the results are combined to form the output RDD.
+		    - In this example below, the `map` transformation is applied independently to each partition, doubling the values in each partition. The result is a new RDD with the same number of partitions.
+	     ``` python
+	     # Example of narrow transformation (map) 
+	     rdd = sc.parallelize([1, 2, 3, 4], 2)  # 2 partitions 
+	     mapped_rdd = rdd.map(lambda x: x * 2)
+		 ```
+		2. **Wide Transformations**
+		    - Wide transformations are operations where data from multiple partitions of the parent RDD is required to compute the partitions of the child RDD. These transformations involve shuffling or redistribution of data across partitions and can incur more computational and network overhead.
+		    - Examples of wide transformations include `groupByKey`, `reduceByKey`, `sortByKey`, and `join`.
+		    - These transformations often lead to the creation of a new set of partitions based on the key, requiring data exchange between nodes.
+		    - Following the example below, the `reduceByKey` transformation requires data with the same key to be combined. This involves shuffling data between partitions to group values by key, resulting in a new set of partitions for the output RDD.
+		``` python
+		# Example of wide transformation (reduceByKey) 
+		pair_rdd = sc.parallelize([(1, 2), (1, 4), (2, 1), (2, 3)], 2)  # 2 partitions 
+		reduced_rdd = pair_rdd.reduceByKey(lambda x, y: x + y)
+		```
 2. **Actions**
     - Actions are operations that trigger the execution of the logical execution plan and return a value to the driver program or write data to an external storage system.
     - Actions are the operations that initiate the actual computation of data and materialize the results.
